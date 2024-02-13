@@ -52,7 +52,7 @@ def main():
           progress_bar.update(1)
 
       progress_bar.close()
-      print("تم تنزيل الصور بنجاح!")
+      print("تم التنزيل")
 
       zip_filename = os.path.join("images", f"{folder_name}.zip")
       with zipfile.ZipFile(zip_filename, "w") as zip_file:
