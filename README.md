@@ -1,12 +1,12 @@
 # Oduto Downloader
-يقوم [السكربت]() بتنزيل الفصول من مدونة [Oduto](https://nb19u.blogspot.com) وأي مدونة بنفس القالب.
+يقوم [السكربت](https://github.com/xMohnad/Oduto-Downloader/blob/main/Script/main.py) بتنزيل الفصول من مدونة [Oduto](https://nb19u.blogspot.com) وأي مدونة بنفس القالب.
 
 # تشغيل السكربت على الجوال(أي سكربت):
 أولًا تنزيل [Termux](https://github.com/termux/termux-app#github) وتثبيته
 
-بعد تثبيته تحتاج لتحميل لتحديث الحزم وتنزيل اللغة والمكتبات المستخدمة في السكربت وهي:
+بعد تثبيته تحتاج لتحديث الحزم وتنزيل اللغة والمكتبات المستخدمة في السكربت وهي:
 
-### قم بتثبت (بالترتيب):
+### قم بتثبت بالترتيب:
 
 `pkg upgrade`
 
@@ -27,9 +27,9 @@
 
 اذا وجدته يمكنك تشغيله عبر `python اسم_الملف.py` وقم بإضافة رابط الفصل وسيقوم بتنزيله.
 # طريقة أخرى
-بعد تثبيت ما ذُكِر يمكنك إنشاء ملف بكتابة `nano oduto.py` ولصق [السكربت]() فيه وتشغيله بكتابة `python oduto.py`
+بعد تثبيت ما ذُكِر يمكنك إنشاء ملف بكتابة `nano oduto.py` ولصق [السكربت](https://github.com/xMohnad/Oduto-Downloader/blob/main/Script/main.py) فيه وتشغيله بكتابة `python oduto.py`
 
 # لأي سؤال:
 
-[X](https://x.com/xMohnad13)
+[Twitter / X](https://x.com/xMohnad13)
 
