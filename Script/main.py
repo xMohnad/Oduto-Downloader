@@ -12,7 +12,7 @@ def main():
           url = requests.get(user_url)
           url.raise_for_status()
       except requests.exceptions.RequestException as e:
-          print(f"حدث خطأ في الاتصال: {e}")
+          print(f"حدث خطأ في الإتصال: {e}")
           return
 
       src = url.content
@@ -61,7 +61,7 @@ def main():
                   file_path = os.path.join(root, file)
                   zip_file.write(file_path, os.path.relpath(file_path, folder_path))
                 
-      print(f"تم ضغط الصور إلى ملف zip بنجاح! الملف المضغوط: {zip_filename}")
+      print(f"تم الضغط: {zip_filename}")
 
 if __name__ == "__main__":
       main()
